@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+}
+.float1{
+    float: left;
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+}
+.content{
+    float: right;
+    margin-right: 100px;
+}
+.container{
+    padding: 15px;
+    overflow: hidden;
+}
+.container:L::after{
+    clear: both;
+    content: "";
+    display: table;
+}
+.mgt{
+    margin-top: 10px;
+}
+.listsec{
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.expdata th,.expdata td{
+    padding: 15px;
+    text-align: left;
+}
